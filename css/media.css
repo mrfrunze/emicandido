@@ -17,6 +17,7 @@
 
     .nav {
         position: absolute;
+        z-index: 4;
         top: -1000%;
         left: 0;
         width: 100%;
