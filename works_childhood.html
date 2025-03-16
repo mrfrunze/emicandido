@@ -7,6 +7,8 @@
 <title>EMI C</title>
 <link rel="icon" type="image/x-icon" href="/images/logo_Tab.svg">	
 <link href="css/singlePageTemplate.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="./css/custom.css">
+<link rel="stylesheet" href="./css/media.css">
 <!--The following script tag downloads a font from the Google Fonts server for use within the web page. We recommend that you do not modify it.-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,60 +25,63 @@
 <button class="scrollup">
     <image src="images/circle-up-greey.svg" alt="icon upp"/>
 </button>
+<!-- header -->
+<header class="header">
+  <div class="header-fixed">
+      <div class="container" id="imagem">
+        <div class="logo">
+          <img src="images/logo.svg" alt="logo emi c" />
+          <span class="logotexto">EMI C</span>
+        </div>
+        <!-- Navigation -->
+        <nav class="nav">
+          <ul class="lists">
+            <li class="item"><a href="index.html">HOME</a></li>
+            <li class="item"><a href="works_InnerStories.html">INNER STORIES</a></li>
+            <li class="item"><a href="works_childhood.html">CHILDHOOD</a></li>
+            <li class="item"><a href="works_masks.html">About me</a></li>
+            <li class="item"><a href="works_yoni.html">YONI SERIES</a></li>
+            <li class="item"><a class="" href="bio&contact.html">CONTACTS</a></li>
+          </ul>
+        </nav>
+        <div class="burger"></div>
+      </div>
+  </div>
+
+</header>
+<!-- / header -->
 <!-- Main Container -->
-<div class="container"> 
-  <!-- Navigation -->
-  <header> <a href="">
-	 <div class="imagem" id="imagem">
-    <div class="logo"><a href="index.html"><img src="images/logo.svg" width="100" height="100" alt="logo emi c"></a></div>
-		 <h4 class="logotexto"><a href="index.html">EMI C</a></h4>
-    </a>
-    <nav>
-      <ul>
-        <li><a href="index.html">HOME</a></li>
-        <li><a>
-			<div class="dropdown">
-			<button class="dropbtn">WORKS</button>
-            <div class="dropdown-content">
-                <a href="works_InnerStories.html">INNER STORIES OF THE MIND</a>
-                <a href="works_childhood.html">CHILDHOOD</a>
-			    <a href="works_masks.html">DO YOU KNOW THE REAL ME?</a>
-				<a href="works_yoni.html">YONI SERIES</a>
-            </div>
-            </div></a>
-		  </li>
-        <li><a href="bio&contact.html">BIO & CONTACTS</a></li>
-      </ul>
-    </nav>
-    </div>
-  </header>
+ <main>
   <!-- Hero Section -->
   <section class="hero" id="hero">
-    <h2 class="hero_header">WORKS<span class="light"></span></h2>
-    <p class="tagline">EMI CANDIDO</p>
+    <div class="container">
+      <h2 class="hero_header">WORKS<span class="light"></span></h2>
+      <p class="tagline">EMI CANDIDO</p>
+    </div>
   </section>
-  <!-- About Section -->
+<div class="container"> 
 	<!-- YONI -->
   <section class="about_works" id="about">
     <h2 class="hidden">About</h2>
-	<h2 class="tagline_wtitulo"><strong>childhooD</strong></h2>  
-<p class="text_column_Centro"><strong>Artist Statement</strong><br>
- investigating through conversations with people who have had therapy, psychologists, psychiatrists, combining the information obtained in the conversations and shared information and transforming it into objects that have the power to transmit this information in a way that, even if not entirely clear, can induce and arouse the public's curiosity to try to understand my message. It's about childhood trauma, bringing memories and awareness to the issues we face in our society.</p>
+	  <h2 class="tagline_wtitulo"><strong>childhooD</strong></h2>  
+    <p class="text_column_Centro"><strong>Artist Statement</strong><br>
+    investigating through conversations with people who have had therapy, psychologists, psychiatrists, combining the information obtained in the conversations and shared information and transforming it into objects that have the power to transmit this information in a way that, even if not entirely clear, can induce and arouse the public's curiosity to try to understand my message. It's about childhood trauma, bringing memories and awareness to the issues we face in our society.</p>
 	  <h2 class="hero_header_texto"style="color:#B8B8B8">Floating Broken Traumas - 2023<span class="light"></span></h2>
     <p class="tagline" style="color:#B8B8B8">1,800x1000 cm</p>
 	  <div class="text_column_Centro"><img src="images/childwood_Floating_Broken_Traumas.jpg" class="center" width="70%" alt=""/></div>
 	  <h2 class="hero_header_texto" style="color:#B8B8B8">Angry Wrecking doll - 2023<span class="light"></span></h2>
-<p class="tagline" style="color:#B8B8B8">installation</p>
+    <p class="tagline" style="color:#B8B8B8">installation</p>
 	  <div class="text_column_Centro"><img src="images/childwood_Angry_Wrecking_doll.jpg" class="center" width="70%"   alt=""/></div>
-  <h2 class="hero_header_texto" style="color:#B8B8B8">Broken Playground - 2023<span class="light"></span></h2>
-<p class="tagline" style="color:#B8B8B8">installation</p>
+    <h2 class="hero_header_texto" style="color:#B8B8B8">Broken Playground - 2023<span class="light"></span></h2>
+    <p class="tagline" style="color:#B8B8B8">installation</p>
 	  <div class="text_column_Centro"><img src="images/childwood_Broken_Playground.jpg" class="center" width="70%"   alt=""/></div>
-  
-	
- 
+  </section>
+  </div>
+</main>
+<footer class="footer">
   <!-- Copyrights Section -->
   <div class="copyright">&copy;<span class="year"></span> - <strong>EMI C</strong></div>
-</div>
+</footer>
 <!-- Main Container Ends -->
 <script src="/js/main.js"></script>
 </body>

@@ -7,6 +7,8 @@
 <title>EMI C</title>
 <link rel="icon" type="image/x-icon" href="/images/logo_Tab.svg">	
 <link href="css/singlePageTemplate.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="./css/custom.css">
+<link rel="stylesheet" href="./css/media.css">
 <!--The following script tag downloads a font from the Google Fonts server for use within the web page. We recommend that you do not modify it.-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,73 +21,76 @@
     <![endif]-->
 </head>
 <body>
-    <!-- btn up -->
-<button class="scrollup">
-    <image src="images/circle-up-greey.svg" alt="icon upp"/>
-</button>
-<!-- Main Container -->
-<div class="container"> 
-  <!-- Navigation -->
-  <header> <a href="">
-	 <div class="imagem" id="imagem">
-    <div class="logo"><a href="index.html"><img src="images/logo.svg" width="100" height="100" alt="logo emi c"></a></div>
-		 <h4 class="logotexto"><a href="index.html">EMI C</a></h4>
-    </a>
-    <nav>
-      <ul>
-        <li><a href="index.html">HOME</a></li>
-        <li><a>
-			<div class="dropdown">
-			<button class="dropbtn">WORKS</button>
-            <div class="dropdown-content">
-                <a href="works_InnerStories.html">INNER STORIES OF THE MIND</a>
-                <a href="works_childhood.html">CHILDHOOD</a>
-			    <a href="works_masks.html">DO YOU KNOW THE REAL ME?</a>
-				<a href="works_yoni.html">YONI SERIES</a>
-            </div>
-            </div></a>
-		  </li>
-        <li><a href="bio&contact.html">BIO & CONTACTS</a></li>
-      </ul>
-    </nav>
+  <!-- btn up -->
+  <button class="scrollup">
+      <image src="images/circle-up-greey.svg" alt="icon upp"/>
+  </button>
+  <!-- header -->
+  <header class="header">
+    <div class="header-fixed">
+        <div class="container" id="imagem">
+          <div class="logo">
+            <img src="images/logo.svg" alt="logo emi c" />
+            <span class="logotexto">EMI C</span>
+          </div>
+        
+          <nav class="nav">
+            <ul class="lists">
+              <li class="item"><a href="index.html">HOME</a></li>
+              <li class="item"><a href="works_InnerStories.html">INNER STORIES</a></li>
+              <li class="item"><a href="works_childhood.html">CHILDHOOD</a></li>
+              <li class="item"><a href="works_masks.html">About me</a></li>
+              <li class="item"><a href="works_yoni.html">YONI SERIES</a></li>
+              <li class="item"><a class="" href="bio&contact.html">CONTACTS</a></li>
+            </ul>
+          </nav>
+          <div class="burger"></div>
+        </div>
     </div>
   </header>
-  <!-- Hero Section -->
-  <section class="hero" id="hero">
-    <h2 class="hero_header">WORKS<span class="light"></span></h2>
-    <p class="tagline">EMI CANDIDO</p>
-  </section>
-  <!-- About Section -->
-	<!-- YONI -->
-  <section class="about_works" id="about">
-    <h2 class="hidden">About</h2>
-	<h2 class="tagline_wtitulo"><strong>Yoni&nbsp;</strong>series</h2>  
-    <p class="text_column_Centro"><strong>
-Artist Statement</strong>
-<br>
-This series Yoniverse, draws its focus and inspiration from honouring the Giver of Life (Yoni – is a Sanskrit word that has been interpreted to literally mean the womb, the female genitalia, regarded as a divine symbol of sexual pleasure and matrix of generation. the divine eternal process of creation and regeneration, and the union of the feminine and the masculine that recreates all of existence).<br>
-I was inspired of my experience living in an active volcano island, where I witnessed many times the growing of the island, through lava, the blood of the earth. The process gives a synergetic union between both male and female.<br>
-Connecting the creation of life of the volcano with the women channel of life, I dedicated these series 
-The notion for these creative pieces was drawn from time in my life when I was travelling in… and the energiesand the sublimity of the Volcano spoke to me in ways about creation and destruction. Life and death. The process of completion and beginnings.<br>
-That memoir stood with me and fused these physical manifestations of my inspirations. 
-The use of mixed media was my understanding of to see it in different perspectives, giving an iconic feature. 
-Honouring the vulva/vagina and reclaiming negative connotations surrounding the female genitalia</p>
-	  <h2 class="hero_header_texto"style="color:#B8B8B8">REFLECTIONS, INTROSPECTIONS<span class="light"></span></h2>
-    <p class="tagline" style="color:#B8B8B8">wall: 55x25x15 cm<br></p>
-	  <div class="text_column_Centro"><img src="images/Yoni_Reflections_introspections.jpg" class="center" width="70%" alt=""/></div>
-	  <h2 class="hero_header_texto" style="color:#B8B8B8">Carnival<span class="light"></span></h2>
-    <p class="tagline" style="color:#B8B8B8">WALL: 25x22x10 cm</p>
-	  <div class="text_column_Centro"><img src="images/Yoni_Carnival.jpg" class="center" width="70%"   alt=""/></div>
-	  <h2 class="hero_header_texto" style="color:#B8B8B8">Golden Stitch<span class="light"></span></h2>
-    <p class="tagline" style="color:#B8B8B8">WALL: 25x22x10 cm<br></p>
-	  <div class="text_column_Centro"><img src="images/yoni_stitch.jpg" class="center" width="70%"   alt=""/></div>
-  
-	
- 
-  <!-- Copyrights Section -->
-<div class="copyright">&copy;<span class="year"></span> - <strong>EMI C</strong></div>
-</div>
-<!-- Main Container Ends -->
+  <!-- / header -->
+<!-- Main Container -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="container">
+        <h2 class="hero_header">WORKS<span class="light"></span></h2>
+        <p class="tagline">EMI CANDIDO</p>
+      </div>
+    </section>
+    <div class="container"> 
+
+
+      <!-- About Section -->
+      <!-- YONI -->
+      <section class="about_works" id="about">
+        <h2 class="hidden">About</h2>
+      <h2 class="tagline_wtitulo"><strong>Yoni&nbsp;</strong>series</h2>  
+        <p class="text_column_Centro"><strong>
+    Artist Statement</strong>
+    <br>
+    This series Yoniverse, draws its focus and inspiration from honouring the Giver of Life (Yoni – is a Sanskrit word that has been interpreted to literally mean the womb, the female genitalia, regarded as a divine symbol of sexual pleasure and matrix of generation. the divine eternal process of creation and regeneration, and the union of the feminine and the masculine that recreates all of existence).<br>
+    I was inspired of my experience living in an active volcano island, where I witnessed many times the growing of the island, through lava, the blood of the earth. The process gives a synergetic union between both male and female.<br>
+    Connecting the creation of life of the volcano with the women channel of life, I dedicated these series 
+    The notion for these creative pieces was drawn from time in my life when I was travelling in… and the energiesand the sublimity of the Volcano spoke to me in ways about creation and destruction. Life and death. The process of completion and beginnings.<br>
+    That memoir stood with me and fused these physical manifestations of my inspirations. 
+    The use of mixed media was my understanding of to see it in different perspectives, giving an iconic feature. 
+    Honouring the vulva/vagina and reclaiming negative connotations surrounding the female genitalia</p>
+        <h2 class="hero_header_texto"style="color:#B8B8B8">REFLECTIONS, INTROSPECTIONS<span class="light"></span></h2>
+        <p class="tagline" style="color:#B8B8B8">wall: 55x25x15 cm<br></p>
+        <div class="text_column_Centro"><img src="images/Yoni_Reflections_introspections.jpg" class="center" width="70%" alt=""/></div>
+        <h2 class="hero_header_texto" style="color:#B8B8B8">Carnival<span class="light"></span></h2>
+        <p class="tagline" style="color:#B8B8B8">WALL: 25x22x10 cm</p>
+        <div class="text_column_Centro"><img src="images/Yoni_Carnival.jpg" class="center" width="70%"   alt=""/></div>
+        <h2 class="hero_header_texto" style="color:#B8B8B8">Golden Stitch<span class="light"></span></h2>
+        <p class="tagline" style="color:#B8B8B8">WALL: 25x22x10 cm<br></p>
+      </section>
+    </div>
+  <!-- Main Container Ends -->
+  </main>
+  <footer class="footer">
+    <div class="copyright">&copy;<span class="year"></span> - <strong>EMI C</strong></div>
+  </footer>
 <script src="/js/main.js"></script>
 </body>
 </html>

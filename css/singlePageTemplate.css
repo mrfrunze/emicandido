@@ -144,15 +144,12 @@ a {
 }
 /* About Section */
 .text_column_Centro{
-	/* width: 100%;*/
+	width: 100%;
 	text-align: left;
 	font-weight: lighter;
 	font-size: 20px;
 	line-height: 40px;
-	/* float: Left;*/
 	align-content: center;
-	padding-left: 150px;
-	padding-right: 150px;
 	color: #8f8f8f;
 }
 .col-sm-4 h4 {
@@ -310,7 +307,6 @@ margin: 0;
 /* More info */
 footer {
 	background-color: #FFFFFF;
-	padding-bottom: 35px;
 }
 .footer_column {
 	width: 50%;
@@ -396,26 +392,7 @@ footer {
   text-decoration: none;
   display: inline-flex;
 }
-.logo {
-	width: auto;
-	float: left;
-	/*text-align: center;*/
-	border: 1px solid;
-	margin-top: 15px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 25px;
-}
-.logotexto {
-	width: auto;
-	text-align: left;
-	border: 1px;
-	float: left;
-	margin-top: 55px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 10px;
-}
+
 .container header nav {
 margin: 0;
 	width: 100%;
@@ -592,7 +569,6 @@ nav ul li {
 	background-image: none;
 }
 .tagline {
-	margin-top: 20px;
 	line-height: 22px;
 }
 .hero_header {
