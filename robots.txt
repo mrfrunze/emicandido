@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Allow: /
+
+User-agent: Googlebot
+Disallow: /admin/
+Disallow: /private/
+Allow: /
+
+User-agent: Bingbot
+Crawl-delay: 5
+
+Sitemap: https://emicandido.com/sitemap.xml
